@@ -106,3 +106,4 @@ D:\Projects\HitBall\HitBallWebServer\bin\Debug\net8.0\Microsoft.AspNetCore.JsonP
 D:\Projects\HitBall\HitBallWebServer\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Projects\HitBall\HitBallWebServer\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Projects\HitBall\HitBallWebServer\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Projects\HitBall\HitBallWebServer\obj\Debug\net8.0\HitBallWebServer.sourcelink.json

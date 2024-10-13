@@ -47,9 +47,6 @@ namespace HitBallWebServer.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("RemainTime")
-                        .HasColumnType("int");
-
                     b.Property<int>("TotalScore")
                         .HasColumnType("int");
 

@@ -23,7 +23,6 @@ namespace HitBallWebServer.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     TotalScore = table.Column<int>(type: "int", nullable: false),
                     HitCount = table.Column<int>(type: "int", nullable: false),
-                    RemainTime = table.Column<int>(type: "int", nullable: false),
                     Date = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Id = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),

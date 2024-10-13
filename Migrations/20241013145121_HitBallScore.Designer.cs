@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HitBallWebServer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241008082341_HitBallScore")]
+    [Migration("20241013145121_HitBallScore")]
     partial class HitBallScore
     {
         /// <inheritdoc />
@@ -49,9 +49,6 @@ namespace HitBallWebServer.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
-
-                    b.Property<int>("RemainTime")
-                        .HasColumnType("int");
 
                     b.Property<int>("TotalScore")
                         .HasColumnType("int");

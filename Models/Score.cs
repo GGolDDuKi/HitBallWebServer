@@ -8,7 +8,6 @@ namespace HitBallWebServer.Models
         public int GameId { get; set; }
         public int TotalScore { get; set; }
         public int HitCount { get; set; }
-        public int RemainTime { get; set; }
         public DateTime Date { get; set; }
 
         //player info
