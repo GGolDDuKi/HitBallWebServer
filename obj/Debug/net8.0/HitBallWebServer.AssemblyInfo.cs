@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HitBallWebServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beca06e960387a32c12aef80719fdf4881047c99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+696eeade654ae7154992679d10c20f94bddb47e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("HitBallWebServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HitBallWebServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

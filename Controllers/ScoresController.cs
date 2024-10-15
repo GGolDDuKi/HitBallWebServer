@@ -107,6 +107,19 @@ namespace HitBallWebServer
             return NoContent();
         }
 
+        // GET: api/scores/playerinfo?id=1&major=ComputerScience&name=JohnDoe
+        [HttpGet("playerinfo")]
+        public async Task<ActionResult<int>> GetCountByPlayerInfo([FromQuery] string id, [FromQuery] string major, [FromQuery] string name)
+        {
+            // id, major, name 값에 해당하는 데이터의 개수를 구합니다.
+            var count = await _context.Scores
+                .Where(s => s.Id == id && s.Major == major && s.Name == name)
+                .CountAsync();
+
+            // 개수를 반환합니다.
+            return Ok(count);
+        }
+
         private bool ScoreExists(int id)
         {
             return _context.Scores.Any(e => e.GameId == id);
